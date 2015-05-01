@@ -33,6 +33,8 @@ LOCAL_MULTILIB := 32
 
 #LOCAL_CFLAGS += -O0 -g
 
+LOCAL_CFLAGS += -Os
+
 LOCAL_MODULE := libbluetooth_jni
 LOCAL_MODULE_TAGS := optional
 
